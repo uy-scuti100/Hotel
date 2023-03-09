@@ -49,7 +49,7 @@
 
 @layer base {
   .active:after {
-    content: url("images/small-star.png");
+    content: url("/public/images/small-star.png");
     display: inline-block;
     width: 30px;
     height: 30px;
