@@ -49,12 +49,10 @@
 
 @layer base {
   .active:after {
-    content: "";
-    background-image: url("images/small-star.png");
+    content: url("images/small-star.png");
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-size: cover;
     margin-left: 5px;
   }
 }
