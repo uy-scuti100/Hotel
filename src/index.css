@@ -48,7 +48,7 @@
 }
 
 @layer base {
-  .active:before {
+  .active:after {
     content: "";
     background-image: url("images/small-star.png");
     display: inline-block;

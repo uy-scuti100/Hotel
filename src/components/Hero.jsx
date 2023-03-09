@@ -5,7 +5,7 @@ const hero = () => {
     // mobile screen
     <div>
       <div className="bg-primary-color md:hidden">
-        <h1 className="text-[90px] text-center text-white-color pt-5 ">
+        <h1 className="text-[80px] text-center text-white-color pt-5 px-1 mx-auto">
           Bank<span className="text-secondary-color">Hotel</span>
         </h1>
         <p className="uppercase text-secondary-color text-[14px] leading-[14.4px] text-center font-[400] after:content-[''] after:w-[50%] after:bg-white after:opacity-[12%] after:h-[1px] after:block after:mx-auto after:mt-7">
