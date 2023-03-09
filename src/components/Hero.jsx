@@ -8,7 +8,7 @@ const hero = () => {
         <h1 className="text-[80px] text-center text-white-color pt-5 px-1 mx-auto">
           Bank<span className="text-secondary-color">Hotel</span>
         </h1>
-        <p className="uppercase text-secondary-color text-[13px] leading-[14.4px] text-center font-[400] after:content-[''] after:w-[50%] after:bg-white after:opacity-[12%] after:h-[1px] after:block after:mx-auto after:mt-7">
+        <p className="uppercase text-secondary-color text-[12px] leading-[12.4px] text-center font-[400] after:content-[''] after:w-[50%] after:bg-white after:opacity-[12%] after:h-[1px] after:block after:mx-auto after:mt-7">
           rooms // restaurant // congress hall // wine bar
         </p>
         <div className="text-white-color text-center font-[400] text-[14px]leading-[23px] pt-6">
