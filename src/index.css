@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Miracle";
+  src: url("./fonts/Miracle Personal use.otf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("./fonts/HelveticaNeueLTStd-ThEx.otf");
+}
+
+@layer base {
+  h1 {
+    @apply font-headerFont;
+  }
+}
+
+@layer base {
+  .mobile-fill-btn {
+    height: 120px;
+    width: 120px;
+    background-color: #fcc000;
+    clip-path: polygon(
+      50% 0%,
+      83% 12%,
+      100% 43%,
+      94% 78%,
+      68% 100%,
+      32% 100%,
+      6% 78%,
+      0% 43%,
+      17% 12%
+    );
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica Neue LT Std;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+  }
+}
+
+@layer base {
+  .active:before {
+    content: "";
+    background-image: url("images/small-star.png");
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    margin-left: 5px;
+  }
+}
+@layer base {
+  .contact {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 0 12px;
+    bottom: 0;
+    right: 0;
+    box-sizing: border-box;
+  }
+}
+@layer base {
+  .contact-2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    padding: 0 12px;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+  }
+}
+
+@layer base {
+  .translate {
+    transform: translateY(-50px);
+    margin-right: 20px;
+  }
+}
