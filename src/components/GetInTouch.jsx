@@ -25,7 +25,7 @@ const GetInTouch = () => {
       </div>
 
       <div className="border-b-2 p-40 border-slate-400 m-6"></div>
-      <div className="text-[14px] font-[400] leading-[24px] text-center text-slate-500">
+      <div className="text-[14px] font-[400] leading-[24px] text-center text-slate-500 pb-10">
         ©2021 All rights reserved. BankHotel
       </div>
     </div>

@@ -95,7 +95,7 @@ body {
 
 @layer base {
   .pseudo:before {
-    content: url("images/Star 8.png");
+    content: url("/public/images/Star 8.png");
     height: 300px;
     display: inline;
     transform: translateY(-6px);
