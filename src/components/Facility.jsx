@@ -54,10 +54,10 @@ const Facility = () => {
             Ice <br /> Restaurant
           </h1>
           <div className="text-[14px] font-[500] text-h1-color">
-            The Hotels exclusive infra-structure is <br /> complemented by the
-            unique <br /> atmosphere of the Safe Restaurant. <br /> Author's
-            menu, extensive wine card, <br /> and live music will set you up for
-            the correct mood.
+            The Hotels exclusive infra-structure is complemented by the unique{" "}
+            <br /> atmosphere of the Safe Restaurant. <br /> Author's menu,
+            extensive wine card, <br /> and live music will set you up for the
+            correct mood.
           </div>
         </div>
       </div>
@@ -79,11 +79,11 @@ const Facility = () => {
           <img src="images/winebar.png" alt="/" />
         </div>
         <div>
-          <h1 className="absolute uppercase top-0 right-0 text-[30px] font-[500] text-h1-color">
+          <h1 className="absolute uppercase top-0 right-0 text-[30px] font-[500] text-white">
             03
           </h1>
         </div>
-        <div className="pt-10 text-center text-h1-color text-4xl capitalize">
+        <div className="pt-10 text-center text-white text-4xl capitalize">
           <h1>wine bar "reserve" </h1>
         </div>
       </div>
