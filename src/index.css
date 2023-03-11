@@ -5,7 +5,9 @@
 html {
   scroll-behavior: smooth;
 }
-
+body {
+  background-color: #fffcf6;
+}
 
 @font-face {
   font-family: "Miracle";
@@ -54,14 +56,8 @@ html {
 
 @layer base {
   .active:after {
-<<<<<<< HEAD
     content: url("/public/images/small-star.png");
-=======
-    content: '';
-    background-image: url("/public/images/small-star.png");
-    Background-size: cover;
->>>>>>> 67192ac752e9366c357508b263ba4533da2e8fa5
-    display: inline-block;
+    display: inline;
     width: 30px;
     height: 30px;
     margin-left: 5px;
@@ -95,4 +91,18 @@ html {
     transform: translateY(-50px);
     margin-right: 20px;
   }
+}
+
+@layer base {
+  .pseudo:before {
+    content: url("images/Star 8.png");
+    height: 300px;
+    display: inline;
+    transform: translateY(-6px);
+  }
+}
+.get:after {
+  content: url("/public/images/Star 5.png");
+  display: inline-block;
+  transform: translateY(-15px);
 }

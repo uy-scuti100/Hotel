@@ -43,7 +43,7 @@ const RoomsApartment = () => {
         <div className="font-[500] text-[#1B3B36] text-[18px] pb-20 text-right leading-[19.2px] ">
           70rooms
         </div>
-        <div className="text-[80px] pb-20 text-[#1B3B36] font-[500] leading-[60px]">
+        <div className="text-[70px] pb-20 text-[#1B3B36] font-[500] leading-[60px]">
           <h1>
             Rooms & <br /> Apartments
           </h1>

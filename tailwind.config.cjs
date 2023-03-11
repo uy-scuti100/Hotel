@@ -12,6 +12,7 @@ module.exports = {
         "success-color": "#2A5B46",
         "attention-color": "#DC9B39",
         "dark-btn": "rgba(49, 63, 56, 0.48);",
+        "h1-color": "#1B3B36",
       },
       fontFamily: {
         headerFont: ["Miracle", "sans-serif"],

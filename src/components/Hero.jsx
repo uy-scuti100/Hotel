@@ -29,7 +29,7 @@ const hero = () => {
             Book a room
           </a>
         </div>
-        <div className="uppercase font-[400] text-[12px] leading-[14.4px] italic px-3 text-white-color">
+        <div className="uppercase font-[400] text-[12px] leading-[14.4px] italic px-3 pt-3 text-white-color">
           Art & congress <br /> hall
         </div>
       </div>
