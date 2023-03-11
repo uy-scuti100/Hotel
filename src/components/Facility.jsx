@@ -20,7 +20,7 @@ const Facility = () => {
       <div className="flex justify-center px-24">
         <img src="images/image-.png" alt="/" className="w-full block" />
       </div>
-      <div className="py-12 ">
+      <div className="py-12 px-3 ">
         <p className="float-right text-[14px] font-[500] text-h1-color leading-[19.36px]">
           Bank Hotel offers you a wide range of <br /> additional services and
           facilities. Visit <br /> our restaurant to try exclusive meals, <br />{" "}
@@ -79,11 +79,11 @@ const Facility = () => {
           <img src="images/winebar.png" alt="/" />
         </div>
         <div>
-          <h1 className="absolute uppercase top-0 right-0 text-[30px] font-[500] text-white-color">
+          <h1 className="absolute uppercase top-0 right-0 text-[30px] font-[500] text-h1-color">
             03
           </h1>
         </div>
-        <div className="pt-10 text-center text-white-color text-4xl capitalize">
+        <div className="pt-10 text-center text-h1-color text-4xl capitalize">
           <h1>wine bar "reserve" </h1>
         </div>
       </div>
@@ -94,7 +94,7 @@ const Facility = () => {
             Best Apartments
           </h1>
         </div>
-        <div className="float-right text-secondary-color absolute bottom-10 right-16 text-[18px] font-[400] leading-[21.6px]">
+        <div className="text-secondary-color absolute bottom-10 left-8 text-[18px] font-[400] leading-[21.6px]">
           All room <br /> decoration was <br /> made with <br /> ecological
           certified <br />
           and safe materials.

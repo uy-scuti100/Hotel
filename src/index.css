@@ -106,3 +106,6 @@ body {
   display: inline-block;
   transform: translateY(-15px);
 }
+.close-button {
+  transform: translateY(-15px);
+}

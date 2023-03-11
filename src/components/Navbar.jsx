@@ -15,7 +15,7 @@ const navbar = () => {
   };
   return (
     <div>
-      <div className="bg-primary-color flex justify-between items-center text-white px-3 text-sm pt-6 w-full ">
+      <div className="bg-primary-color flex justify-between items-center text-white px-3 text-sm pt-6 pb-2 w-full ">
         <div className="text-[16px] font-[500]">BankHotel</div>
         <div className="hidden lg:block">
           <ul className="flex justify-between items-center gap-8">
@@ -40,8 +40,12 @@ const navbar = () => {
           </ul>
         </div>
         <div className="hidden lg:block">+38 032 297 50 20</div>
-        <div className="lg:hidden">
-          <img src={imageUrl} onClick={toggleNav} className="w-[35px]" />
+        <div className="lg:hidden h-[5px] ">
+          <img
+            src={imageUrl}
+            onClick={toggleNav}
+            className={btn ? "close-button" : ""}
+          />
         </div>
       </div>
 
@@ -49,11 +53,11 @@ const navbar = () => {
       <div
         className={
           nav
-            ? "bg-primary-color text-white-color h-screen pt-10 ease-in-out duration-300 lg:hidden"
-            : "bg-primary-color text-white-color hidden"
+            ? "bg-primary-color text-white-color h-screen pt-10 transition-all duration-500 ease-in-out  lg:hidden"
+            : "bg-primary-color text-white-color h-0 opacity-0"
         }
       >
-        <ul className="flex flex-col justify-between space-y-6 text-[30px] font-[400] leading-[30px] pb-6 px-3 py-9 marker: uppercase transition-opacity duration-500 ease-in-out">
+        <ul className="flex flex-col justify-between  space-y-6 text-[30px] font-[400] leading-[30px] pb-6 px-4 py-9 uppercase ">
           <li>
             <a
               href="#"
