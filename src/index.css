@@ -53,6 +53,34 @@ body {
     letter-spacing: 0px;
   }
 }
+@layer base {
+  .mobile-fill-btn-2 {
+    height: 90px;
+    width: 90px;
+    background-color: #fcc000;
+    clip-path: polygon(
+      50% 0%,
+      83% 12%,
+      100% 43%,
+      94% 78%,
+      68% 100%,
+      32% 100%,
+      6% 78%,
+      0% 43%,
+      17% 12%
+    );
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Helvetica Neue LT Std;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0px;
+  }
+}
 
 @layer base {
   .active:after {

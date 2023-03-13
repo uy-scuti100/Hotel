@@ -5,7 +5,7 @@ const hero = () => {
     // mobile screen
     <div>
       <div className="bg-primary-color md:hidden">
-        <h1 className="text-[80px] text-center text-white-color pt-5 px-1 mx-auto">
+        <h1 className="text-[18vw] text-center text-white-color pt-5 px-1 mx-auto">
           Bank<span className="text-secondary-color">Hotel</span>
         </h1>
         <p className="uppercase text-secondary-color text-[12px] leading-[12.4px] text-center font-[400] after:content-[''] after:w-[50%] after:bg-white after:opacity-[12%] after:h-[1px] after:block after:mx-auto after:mt-7">
@@ -62,7 +62,7 @@ const hero = () => {
 
         {/* hero part */}
         <div>
-          <div className="relative">
+          <div className="relative ">
             <div>
               <img
                 src="images/medium-hero.png"
@@ -94,7 +94,7 @@ const hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center px-3 uppercase text-white-color font-[400] text-[14px] leading-5">
+        <div className="flex justify-between items-center px-3  pt-3 uppercase text-white-color font-[400] text-[14px] leading-5">
           <div className="gap-3">
             <p className="text-secondary-color">+38 032 297 50 20</p>
             <p>8 Lystopadovoho Chynu,Lviv</p>
@@ -105,7 +105,7 @@ const hero = () => {
         </div>
       </div>
 
-      {/* laptop */}
+      {/* laptop hero section */}
       <div className="hidden lg:block  bg-primary-color ">
         <div className="grid grid-cols-4 justify-between items-center  px-4">
           <div className="col-span-2">
@@ -177,7 +177,7 @@ const hero = () => {
             </div>
           </div>
         </div>
-        <div className="flex justify-between items-center p-3 uppercase text-white-color font-[400] text-[14px] leading-5">
+        <div className="flex justify-between items-center uppercase text-white-color font-[400] text-[14px] leading-5">
           <div className="gap-3">
             <p className="text-secondary-color">+38 032 297 50 20</p>
             <p>8 Lystopadovoho Chynu,Lviv</p>
